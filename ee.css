@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #ffafbd, #ffc3a0); /* Fondo romántico */
+  font-family: 'Segoe Script', cursive;
+}
+
+canvas {
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  box-shadow: 0 0 10px #fff;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
